@@ -32,17 +32,17 @@
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
     <div class="panel panel-info">
         <div class="panel panel-heading">
-            <div class="panel-title">找回准考证号</div>
+            <div class="panel-title">午后新学塘找回准考证号系统</div>
         </div>
         <div class="panel-body">
             <form action="/ticket" method="post">
-                <div class="form-group">
+                <div hidden class="form-group">
                     <label for="province">省份：</label>
                     <select name="province" id="province" class="form-control">
                         <option value="重庆">重庆</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div hidden class="form-group">
                     <label for="school">学校：</label>
                     <select name="school" id="school" class="form-control">
                         <option value="重庆交通大学">重庆交通大学</option>
@@ -61,7 +61,7 @@
                     </label>
                 </div>
                 <button id="getTicket" type="button" class="btn btn-primary btn-block" data-toggle="modal"
-                        data-target="#ticketModal">暂时关闭找回准考证号
+                        data-target="#ticketModal">找回准考证号
                 </button>
             </form>
         </div>
